@@ -15,7 +15,7 @@ Followed the steps given on the assignment. They are as follows:
 1. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ### The variables in the tidy data
-tidy.txt file has 180 rows and 68 columns or variables. 
+tidy.txt file has 180 rows and 68 columns or variables.
 
 ### The label category
 Subject column ranges from 1 to 30.
@@ -34,7 +34,7 @@ Activity column has 6 types as listed:
 4. "tBodyAcc-mean()-Y"
 5. "tBodyAcc-mean()-Z"
 6. "tBodyAcc-std()-X"           
-7. "tBodyAcc-std()-Y" 
+7. "tBodyAcc-std()-Y"
 8. "tBodyAcc-std()-Z"
 9. "tGravityAcc-mean()-X"
 10. "tGravityAcc-mean()-Y"
@@ -52,8 +52,8 @@ Activity column has 6 types as listed:
 22. "tBodyGyro-mean()-Y"
 23. "tBodyGyro-mean()-Z"
 24. "tBodyGyro-std()-X"          
-25. "tBodyGyro-std()-Y" 
-26. "tBodyGyro-std()-Z" 
+25. "tBodyGyro-std()-Y"
+26. "tBodyGyro-std()-Z"
 27. "tBodyGyroJerk-mean()-X"     
 28. "tBodyGyroJerk-mean()-Y"
 29. "tBodyGyroJerk-mean()-Z"
@@ -90,14 +90,14 @@ Activity column has 6 types as listed:
 60. "fBodyGyro-std()-Z"          
 61. "fBodyAccMag-mean()"
 62. "fBodyAccMag-std()"   
-63. "fBodyBodyAccJerkMag-mean()" 
+63. "fBodyBodyAccJerkMag-mean()"
 64. "fBodyBodyAccJerkMag-std()"
-65. "fBodyBodyGyroMag-mean()" 
+65. "fBodyBodyGyroMag-mean()"
 66. "fBodyBodyGyroMag-std()"     
-67. "fBodyBodyGyroJerkMag-mean()" 
+67. "fBodyBodyGyroJerkMag-mean()"
 68. "fBodyBodyGyroJerkMag-std()"
 
 ### The data types
-*. labelCol is a factor data type.
-*. Subject is integer data type.
-*. Others are numeric data type.
+* labelCol is a factor data type.
+* Subject is integer data type.
+* Others are numeric data type.

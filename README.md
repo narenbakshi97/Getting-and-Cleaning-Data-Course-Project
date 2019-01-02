@@ -5,13 +5,13 @@ Getting and cleaning data Courses's week 4 Assignment project
 Make the data tider and apply other operations like merging data, labeling, etc.
 
 ## Steps taken:
-*. Downloaded the zip file, heres the file: [UCI HAR Dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
-*. Created run_analysis.R file on RStudio 
-*. Read train and test files via _read.table()_ function
-*. merged it using _rbind()_ function
-*. Set the variable names to the columns
-*. Extracted only the variables which contained mean and stand. deviation variables
-*. made a new _tidy.txt_ file and stored the newly merged files with adding two variables, Subject and labelCols in it and applied mean to the data by grouping it using labels
+* Downloaded the zip file, heres the file: [UCI HAR Dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+* Created run_analysis.R file on RStudio
+* Read train and test files via _read.table()_ function
+* merged it using _rbind()_ function
+* Set the variable names to the columns
+* Extracted only the variables which contained mean and stand. deviation variables
+* made a new _tidy.txt_ file and stored the newly merged files with adding two variables, Subject and labelCols in it and applied mean to the data by grouping it using labels
 
 ## Here were the instructions:
 1. Merges the training and the test sets to create one data set.
